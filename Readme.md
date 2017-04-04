@@ -15,8 +15,8 @@
 
 [//]: # (Image References)
 
-[im01]: ./camera_cal/calibration2.jpg "Original Image"
-[im02]: ./output_files/calibrated2.jpg "Undistorted Image"
+[im01]: ./output_images/undistorted%20camera%20calibration%20image2.png
+[im02]: 
 
 ----
 ### Camera Calibration
@@ -33,7 +33,7 @@ The OpenCV functions `findChessboardCorners` and `calibrateCamera` are the backb
 
 `findChessboardCorners`, is used to find the internal corner of a chessboard, which are then fed to `calibrateCamera` which returns camera calibration and distortion coefficients. These coeff are then used in OpenCV `undistort` function to undo the effects of distortion on any image. For a given camera, the coefficients do not change. The below image presents an example of the calibrated and undistorted chessboard image.
 
-![alt tag] [im01][im02]
+![alt tag] [im01]
 
 
 ```python
