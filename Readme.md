@@ -13,6 +13,11 @@
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 
+[//]: # (Image References)
+
+[im01]: ./camera_cal/calibration2.jpg "Original Image"
+[im02]: ./output_files/calibrated2.jpg "Undistorted Image"
+
 ----
 ### Camera Calibration
 
@@ -28,7 +33,7 @@ The OpenCV functions `findChessboardCorners` and `calibrateCamera` are the backb
 
 `findChessboardCorners`, is used to find the internal corner of a chessboard, which are then fed to `calibrateCamera` which returns camera calibration and distortion coefficients. These coeff are then used in OpenCV `undistort` function to undo the effects of distortion on any image. For a given camera, the coefficients do not change. The below image presents an example of the calibrated and undistorted chessboard image.
 
-![alt tag](https://github.com/prateek47/Advance_Lane_Detection/blob/master/camera_cal/calibration2.jpg)
+![alt tag] [im01][im02]
 
 
 ```python
