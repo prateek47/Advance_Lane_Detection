@@ -197,7 +197,7 @@ Just for testing, I also drew the sliding window function on the image
 
 The code for this part is written in form a function called `process_images` present in `Pipeline(Single Images) Code.. Project4` under **Pipeline(Video)** from code cell 32. I have also defined a class `Line()` to store the values of previous fits and add new fits to be laid over the video images in cell 31. 
 
-Here's a [link to my video result](./project_video_output.mp4)
+Here's a [link to my video result](https://youtu.be/7H3yjiouHlk)
 
 ### Discussion
 
@@ -219,7 +219,7 @@ Here's a [link to my video result](./project_video_output.mp4)
 
 
 
-Here are the link to my [challenge video](./challenge_video_output.mp4)
+Here are the link to my [challenge video](https://youtu.be/O7NM9w1RQdU)
 
 
 ```python
